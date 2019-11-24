@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js"></script>
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Demo Page</title>
+</head>
+
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Demo</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Demo Title Is Amazing!</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <img src="img/img1.png" alt="">
+        </div>
+    </section>
+
+    <!-- OVERLAY -->
+
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Demo title</h3>
+                <h2>Wow What A Title</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/img3.png" class="big"><img src="img/img3.png" alt="" /></a>
+            <a href="img/img4.png" class="big"><img src="img/img4.png" alt="" /></a>
+            <a href="img/img5.png" class="big"><img src="img/img5.png" alt="" /></a>
+            <a href="img/img6.png" class="big"><img src="img/img6.png" alt="" /></a>
+            <a href="img/img7.png" class="big"><img src="img/img7.png" alt="" /></a>
+            <a href="img/img8.png" class="big"><img src="img/img8.png" alt="" /></a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-footer">
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(() => {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+
+</html>
